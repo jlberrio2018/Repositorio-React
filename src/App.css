@@ -2,6 +2,7 @@
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
+  color: chocolate;
 }
 
 .product, .cart-item {
@@ -67,3 +68,5 @@
 .read-the-docs {
   color: #888;
 }
+
+

@@ -14,12 +14,12 @@ function Cart({ cartItems, onRemoveFromCart }) {
                     {cartItems.map(item => (
                         <div key={item.id} className="cart-item">
                             <span>{item.name}</span>
-                            <span>{item.price} COP</span>
+                            <span>{item.price} COP/H</span>
                             <button onClick={() => onRemoveFromCart(item.id)}>Eliminar</button>
                         </div>
                     ))}
                     <div className="cart-total">
-                        <h3>Total: {total} COP</h3>
+                        <h3>Total: {total} COP/H</h3>
                     </div>
                 </div>
             )}
