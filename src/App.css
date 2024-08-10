@@ -2,7 +2,7 @@
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
-  color: chocolate;
+  color: #d2691e;
 }
 
 .product, .cart-item {
@@ -21,6 +21,20 @@
 .cart-total {
   font-weight: bold;
   margin-top: 10px;
+}
+
+.add-to-cart-btn {
+  background-color: #d2691e;
+  ; /* Cambia este valor por el color que desees */
+  color: white; /* Color del texto */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Para bordes redondeados */
+}
+
+.add-to-cart-btn:hover {
+  transform: scale(1.1);
 }
 
 

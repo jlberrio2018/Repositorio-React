@@ -15,7 +15,7 @@ function Cart({ cartItems, onRemoveFromCart }) {
                         <div key={item.id} className="cart-item">
                             <span>{item.name}</span>
                             <span>{item.price} COP/H</span>
-                            <button onClick={() => onRemoveFromCart(item.id)}>Eliminar</button>
+                            <button className="add-to-cart-btn" onClick={() => onRemoveFromCart(item.id)}>Eliminar</button>
                         </div>
                     ))}
                     <div className="cart-total">
